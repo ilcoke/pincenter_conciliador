@@ -1,0 +1,44 @@
+html,body {
+	margin:0px; 
+	height:100%;
+}
+/********
+	login
+	********/
+
+.general_container_login{
+	position: relative;
+	text-align: center;
+	background-color: #1a75cf;
+	min-height: 100%;
+}
+.general_container_login .login_content{
+	width: 486px;
+	height: 512px;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -243px;
+	margin-top: -256px;
+	display: block;
+	background-color: #fff;
+	-webkit-box-shadow: 1px 3px 5px 0px rgba(41,41,41,1);
+	-moz-box-shadow: 1px 3px 5px 0px rgba(41,41,41,1);
+	box-shadow: 1px 3px 5px 0px rgba(41,41,41,1);
+}
+.general_container_login .login_content .header{
+	width: 100%;
+	height: 55px;
+	text-align: center;
+	background-color: #fdc143;
+	font-size: 18px;
+	color: #fff;
+	-webkit-box-shadow: 0px 3px 5px -2px rgba(41,41,41,1);
+	-moz-box-shadow: 0px 3px 5px -2px rgba(41,41,41,1);
+	box-shadow: 0px 3px 5px -2px rgba(41,41,41,1);
+	margin-bottom: 45px;
+}
+.general_container_login .login_content .content img{
+	margin-bottom: 45px;
+}
